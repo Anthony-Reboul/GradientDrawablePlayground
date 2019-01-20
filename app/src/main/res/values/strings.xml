@@ -1,4 +1,9 @@
 <resources>
+    <!--GLOBAL STRINGS-->
     <string name="app_name">Gradient Playground</string>
-    <string name="animate_button_label">animate</string>
+
+    <!--MAIN ACTIVITY STRINGS-->
+    <string name="animate_button_start_label">animate</string>
+    <string name="animate_button_stop_label">stop</string>
+
 </resources>

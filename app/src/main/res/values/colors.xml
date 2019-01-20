@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--APP COLORS-->
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!--MAIN ACTIVITY COLORS-->
+    <color name="gradientRed">#D32F2F</color>
+    <color name="gradientBlue">#1976D2</color>
+    <color name="gradientYellow">#FBC02D</color>
+    <color name="gradientCyan">#00ACC1</color>
+
 </resources>

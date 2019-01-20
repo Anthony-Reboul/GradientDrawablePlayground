@@ -7,9 +7,21 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+    <View
+            android:layout_height="0dp"
+            android:id="@+id/main_gradient_view"
+            android:layout_width="0dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/main_gradient_animation"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/main_animate_button"/>
+
     <Button
+            android:id="@+id/main_animate_button"
             style="@style/primary_button"
-            android:text="@string/animate_button_label"
+            android:text="@string/animate_button_start_label"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
