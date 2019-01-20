@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Gradient Playground</string>
+    <string name="animate_button_label">animate</string>
 </resources>
